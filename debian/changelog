@@ -1,3 +1,12 @@
+alsa-lib (1.2.6.1-1ubuntu1.1) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: heap overflow in topology mixer control decoder
+    - debian/patches/CVE-2026-25068.patch: add boundary check for channel
+      mixer count in src/topology/ctl.c.
+    - CVE-2026-25068
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Fri, 30 Jan 2026 08:11:38 -0500
+
 alsa-lib (1.2.6.1-1ubuntu1) jammy; urgency=medium
 
   * Merge from Debian unstable, remaining changes:
