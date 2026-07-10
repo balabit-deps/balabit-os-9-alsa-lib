@@ -1,3 +1,12 @@
+alsa-lib (1.2.6.1-1ubuntu1.2) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: double free via crafted ALSA configuration text
+    - debian/patches/CVE-2026-56109.patch: conf: add missing return value check
+      in parse_def() in src/conf.c.
+    - CVE-2026-56109
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Fri, 10 Jul 2026 09:50:56 -0400
+
 alsa-lib (1.2.6.1-1ubuntu1.1) jammy-security; urgency=medium
 
   * SECURITY UPDATE: heap overflow in topology mixer control decoder

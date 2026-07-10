@@ -1,3 +1,4 @@
 0001-Enabled-extended-namehints-in-alsa.conf.patch
 python3.10.patch
 CVE-2026-25068.patch
+CVE-2026-56109.patch
